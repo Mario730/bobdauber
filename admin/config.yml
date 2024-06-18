@@ -1,0 +1,22 @@
+backend:
+  name: main
+
+media_folder: 'static/images/uploads'
+
+site_url: 'https://bobdauber.com'
+
+collections:
+  - name: 'posts'
+    label: 'Posts'
+    label_singular: 'Post'
+    folder: ''
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+    create: true
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Images"
+        name: "images"
+        widget: "image"
+        allow_multiple: true
