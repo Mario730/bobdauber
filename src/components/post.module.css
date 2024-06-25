@@ -1,0 +1,29 @@
+.post-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20%, auto));
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.post-links li {
+  border: .1em solid black;
+  display: block;
+  color: #333 !important;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 0.35rem;
+  /* transition: background-color 0.3s ease-in-out; */
+}
+
+.post-link-text {
+  text-decoration: none;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  .post-list {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}

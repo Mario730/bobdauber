@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url(../fonts/helvetica-neue-5/HelveticaNeueLight.otf) format("opentype");
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url(../fonts/helvetica-neue-5/HelveticaNeueMedium.otf) format("opentype");
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url(../fonts/helvetica-neue-5/HelveticaNeueBold.otf) format("opentype");
+    font-weight: 700;
+}
+
+.container {
+    font-family: 'Helvetica Neue', sans-serif;
+    height: 100vw;
+    width: 100vh;
+}
+
+nav {
+    height: 15vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom right, #ffffff, #f2f2f2);
+    /*
+    list-style: none;
+    text-align: center;
+    */
+    display: block;
+    /*
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end; */
+
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 800px) {
+    .top-nav {
+        flex-direction: column;
+    }
+
+    /* .topnav a:not(:first-child) {display: none;} */
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    /* .nav-links a {
+        display: none;
+    } */
+
+    nav.responsive {position: relative;}
+    nav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .top-nav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+nav a {
+    /* text-align: center; */
+    /* height: 100%; */
+    /* height: 10vh; */
+    /* width: 10vw; */
+    /* border: .1rem solid transparent;
+    margin-right: 2.5vw;
+    padding: 1vmax;
+    transition: color .3s;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 300;
+    color: rgb(0, 0, 0); */
+
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: rgb(110, 110, 110);
+}
+
+nav .icon {
+    display: none;
+}
+
+.logo {
+    float: left;
+    /* padding: 1.5rem; */
+    height: 8vh;
+    width: 15vw;
+    margin: 2vh;
+    /* line-height: 90%; */
+    font-size: 3em;
+    align-items: center;
+    font-weight: 700;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    /* text-shadow: black .5rem .5rem; */
+    /* background: linear-gradient(to bottom right, #575757, #000000) 0 0 / cover no-repeat; */
+    /* -webkit-background-clip: text; */
+    /* background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+}
+
+main {
+    padding: 5rem;
+    font-size: 1.2em;
+    width: 100%;
+    height: 100%;
+    color: black;
+}
