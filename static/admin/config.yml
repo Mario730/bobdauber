@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: mario730/bobdauber
+  name: main
 
 media_folder: 'static/images/uploads'
 
