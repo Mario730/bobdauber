@@ -4,7 +4,7 @@
 - make vectorized icon in black
     - send ideas to bob
 
-- hom page cycle image,
+- home page cycle image,
     - feed of new posts
 
 - video of piece on turntable as well
