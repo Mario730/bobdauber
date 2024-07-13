@@ -3,6 +3,8 @@ import * as React from 'react'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
 
+// const isBrowser = typeof window !== "undefined"
+
 const IndexPage = ({ data }) => {
     return (
         <html>
@@ -11,7 +13,12 @@ const IndexPage = ({ data }) => {
             </head>
             <Layout pageTitle="Home">
                 <body>
+                    <h2>Welcome!</h2>
+                    <div>
+                        <p>Hello!</p>
+                    </div>
                     <script>
+                    if (typeof window !== 'undefined') {(() => {
                         if (window.netlifyIdentity) {
                             window.netlifyIdentity.on("init", (user) => {
                             if (!user) {
@@ -19,12 +26,9 @@ const IndexPage = ({ data }) => {
                                 document.location.href = "/admin/";
                                 });
                             }
-                            })}
+                        })}
+                    }) ()}
                     </script>
-                    <h2>Welcome!</h2>
-                    <div>
-                        <p>Hello!</p>
-                    </div>
                 </body>
             </Layout>
         </html>
