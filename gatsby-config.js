@@ -19,6 +19,7 @@ module.exports = {
                 // Generate PWA icons and a favicon
                 icon: `src/images/bd.svg`,
             }
-        }
+        },
+        'gatsby-plugin-netlify'
     ],
 }
