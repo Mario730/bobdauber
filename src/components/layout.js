@@ -24,8 +24,8 @@ const Layout = ({ pageTitle, children }) => {
             <main>
                 {children}
             </main>
-            <footer>
-            </footer>
+            {/* <footer>
+            </footer> */}
         </div>
     )
 }

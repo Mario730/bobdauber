@@ -3,13 +3,14 @@ import * as React from 'react'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
 
-// const isBrowser = typeof window !== "undefined"
+const isBrowser = typeof window !== "undefined"
 
 const IndexPage = ({ data }) => {
     return (
-        <html>
+        <html lang="en">
             <head>
                 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+                <title>Home | Bob Dauber</title>
             </head>
             <Layout pageTitle="Home">
                 <body>
@@ -18,7 +19,7 @@ const IndexPage = ({ data }) => {
                         <p>Hello!</p>
                     </div>
                     <script>
-                    if (typeof window !== "undefined") {(() => {
+                    { isBrowser ? (() => {
                         if (window.netlifyIdentity) {
                             window.netlifyIdentity.on("init", (user) => {
                             if (!user) {
@@ -27,7 +28,7 @@ const IndexPage = ({ data }) => {
                                 });
                             }
                         })}
-                    }) ()}
+                    }) () : null }
                     </script>
                 </body>
             </Layout>
@@ -35,6 +36,6 @@ const IndexPage = ({ data }) => {
     )
 }
 
-export const Head = () => <Seo title="Home"/>
+// export const Head = () => <Seo title="Home"/>
 
 export default IndexPage
