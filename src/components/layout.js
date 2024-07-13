@@ -13,7 +13,7 @@ const Layout = ({ pageTitle, children }) => {
             <nav>
                 <Link to="/">
                 {/* <img src={logo} alt="Logo" /> */}
-                Yo
+                BD
                 </Link>
                 <div className={navLinks}>
                     <Link to="/gallery">GALLERY</Link>

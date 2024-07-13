@@ -6,6 +6,9 @@ module.exports = {
         title: `bobdauber`,
         siteUrl: `https://www.bobdauber.com`,
     },
+    flags: {
+        DEV_SSR: true
+    },
     plugins: [
         {
             resolve: `gatsby-plugin-manifest`,

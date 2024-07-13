@@ -18,7 +18,7 @@ const IndexPage = ({ data }) => {
                         <p>Hello!</p>
                     </div>
                     <script>
-                    if (typeof window !== 'undefined') {(() => {
+                    if (typeof window !== "undefined") {(() => {
                         if (window.netlifyIdentity) {
                             window.netlifyIdentity.on("init", (user) => {
                             if (!user) {
