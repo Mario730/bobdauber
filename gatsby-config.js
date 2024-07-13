@@ -23,6 +23,6 @@ module.exports = {
                 icon: `src/images/bd.svg`,
             }
         },
-        'gatsby-plugin-netlify'
+        // 'gatsby-plugin-netlify'
     ],
 }

@@ -10,7 +10,7 @@ const IndexPage = ({ data }) => {
         <html lang="en">
             <head>
                 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-                <title>Home | Bob Dauber</title>
+                <title>About | Bob Dauber</title>
             </head>
             <Layout pageTitle="Home">
                 <body>
