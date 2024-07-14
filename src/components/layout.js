@@ -10,19 +10,24 @@ import Icon from "../images/bd.svg"
 const Layout = ({ pageTitle, children }) => {
     return (
         <div className={container}>
-            <nav>
-                <Link to="/"><Icon /></Link>
-                <div className={navLinks}>
-                    <Link to="/gallery">GALLERY</Link>
-                    <Link to="/about">ABOUT</Link>
-                </div>
-                
-            </nav>
-            <main>
-                {children}
-            </main>
-            <footer>
-            </footer>
+            <html lang="en">
+                <head>
+                    <title>{pageTitle} | Bob Dauber</title>
+                </head>
+                <nav>
+                    <Link to="/"><Icon /></Link>
+                    <div className={navLinks}>
+                        <Link to="/gallery">GALLERY</Link>
+                        <Link to="/about">ABOUT</Link>
+                    </div>
+                    
+                </nav>
+                <main>
+                    {children}
+                </main>
+                <footer>
+                </footer>
+            </html>
         </div>
     )
 }
