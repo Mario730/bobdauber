@@ -21,7 +21,7 @@ from alabaster and other soft stones. I fell in love with the process—the
 intense focus that carving requires, and the sense of losing oneself in the
 stone. I ended up spending far more time in the studio than the course
 required.” Although he may have had fantasies of building his own studio
-and becoming a sculptor, Bob’s life took a different turn.” He did not pick
+and becoming a sculptor, Bob’s life took a different turn. He did not pick
 up a hammer and chisel again for 48 years.</p>
                         <p>Instead, Bob became a lawyer and, eventually, a law professor. After a
 long career on the law faculty at Arizona State University, Bob retired in

@@ -23,6 +23,14 @@ module.exports = {
                 icon: `src/images/bd.svg`,
             }
         },
+        {
+            resolve: 'gatsby-plugin-react-svg',
+            options: {
+                rule: {
+                    include: /images/
+                }
+            }
+        }
         // 'gatsby-plugin-netlify'
     ],
 }

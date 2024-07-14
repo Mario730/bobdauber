@@ -5,16 +5,13 @@ import {
     navLinks
 } from './layout.module.css'
 
-// import logo from "../images/icon-512x512.png"
+// import Icon from "../images/bd.svg"
 
 const Layout = ({ pageTitle, children }) => {
     return (
         <div className={container}>
             <nav>
-                <Link to="/">
-                {/* <img src={logo} alt="Logo" /> */}
-                BD
-                </Link>
+                <Link to="/">BD</Link>
                 <div className={navLinks}>
                     <Link to="/gallery">GALLERY</Link>
                     <Link to="/about">ABOUT</Link>
