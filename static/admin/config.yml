@@ -25,9 +25,9 @@ collections:
         name: "dimensions"
         widget: "object"
         fields:
-          - {label: "Width", name: "width", widget: "number"}
-          - {label: "Height", name: "height", widget: "number"}
-          - {label: "Depth", name: "depth", widget: "number"}
+          - {label: "Width", name: "width", widget: "number", value_type: "float"}
+          - {label: "Height", name: "height", widget: "number", value_type: "float"}
+          - {label: "Depth", name: "depth", widget: "number", value_type: "float"}
       - label: "Date"
         name: "date"
         widget: "datetime"
