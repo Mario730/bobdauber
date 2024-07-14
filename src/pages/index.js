@@ -14,9 +14,8 @@ const IndexPage = ({ data }) => {
             </head>
             <Layout pageTitle="Home">
                 <body>
-                    <h2>Welcome!</h2>
                     <div>
-                        <p>Hello!</p>
+                        <p>Home</p>
                     </div>
                     <script>
                     { isBrowser ? (() => {
