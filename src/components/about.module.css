@@ -1,7 +1,33 @@
-.text {
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url(../fonts/HelveticaNeueBlack.otf) format("opentype");
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url(../fonts/HelveticaNeueLight.otf) format("opentype");
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url(../fonts/HelveticaNeueMedium.otf) format("opentype");
+    font-weight: 500;
+}
+
+* {
     font-family: 'Helvetica Neue', sans-serif;
+}
+
+.text {
+    font-weight: 300;
     font-size: 1.5em;
     margin: 2vh;
     padding: 2vh;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 3em;
     text-align: center;
 }

@@ -3,11 +3,11 @@
  */
 module.exports = {
     siteMetadata: {
-        title: `bobdauber`,
+        title: `Bob Dauber`,
         siteUrl: `https://www.bobdauber.com`,
     },
     flags: {
-        DEV_SSR: true
+        // DEV_SSR: true
     },
     plugins: [
         {
@@ -30,7 +30,14 @@ module.exports = {
                     include: /images/
                 }
             }
-        }
-        // 'gatsby-plugin-netlify'
+        },
+        {
+            resolve: 'gatsby-source-filesystem',
+            options: {
+                name: 'posts',
+                path: `${__dirname}/static/posts`
+            }
+        },
+        'gatsby-plugin-image'
     ],
 }

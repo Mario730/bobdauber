@@ -1,17 +1,16 @@
 import * as React from 'react'
-// import { graphql, Link } from 'gatsby'
 import Layout from '../components/layout'
-// import Seo from '../components/seo'
+import Seo from '../components/seo'
 
 import {
     text
 } from '../components/about.module.css'
 
-const IndexPage = ({ data }) => {
+const AboutPage = () => {
     return (
-        <Layout pageTitle="About Me">
+        <Layout>
             <body>
-                <h1>About Me</h1><br />
+                <h1>ABOUT</h1><br />
                 <div className={text}>
                     <p>Bob Dauber is a stone sculptor living in Scottsdale, Arizona. His first
 experience carving stone was in 1973, his freshman year at Pomona
@@ -51,6 +50,6 @@ interesting by-product, but I am doing it for the process.”</p><br />
     )
 }
 
-// export const Head = () => <Seo title="Home"/>
+export const Head = () => <Seo title="About"/>
 
-export default IndexPage
+export default AboutPage

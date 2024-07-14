@@ -5,6 +5,6 @@
 - home page cycle image,
     - feed of new posts
 
-- include dimensions of piece as well
-- weight as well
-- medium on base
+- update styling of about page
+
+- make front end for pieces

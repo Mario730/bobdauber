@@ -7,13 +7,10 @@ import {
 
 import Icon from "../images/bd.svg"
 
-const Layout = ({ pageTitle, children }) => {
+const Layout = ({ children }) => {
     return (
         <div className={container}>
             <html lang="en">
-                <head>
-                    <title>{pageTitle} | Bob Dauber</title>
-                </head>
                 <nav>
                     <Link to="/"><Icon /></Link>
                     <div className={navLinks}>

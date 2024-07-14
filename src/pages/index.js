@@ -1,13 +1,13 @@
 import * as React from 'react'
 // import { graphql, Link } from 'gatsby'
 import Layout from '../components/layout'
-// import Seo from '../components/seo'
+import Seo from '../components/seo'
 
 const isBrowser = typeof window !== "undefined"
 
-const IndexPage = ({ data }) => {
+const IndexPage = () => {
     return (
-        <Layout pageTitle="Home">
+        <Layout>
             <body>
                 <div>
                     <p>Home</p>
@@ -29,6 +29,6 @@ const IndexPage = ({ data }) => {
     )
 }
 
-// export const Head = () => <Seo title="Home"/>
+export const Head = () => <Seo title="Home"/>
 
 export default IndexPage
