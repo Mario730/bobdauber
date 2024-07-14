@@ -21,6 +21,20 @@ collections:
       - label: "Material"
         name: "material"
         widget: "string"
+      - label: "Dimensions"
+        name: "dimensions"
+        widget: "object"
+        fields:
+          - {label: "Width", name: "width", widget: "number"}
+          - {label: "Height", name: "height", widget: "number"}
+          - {label: "Depth", name: "depth", widget: "number"}
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        default: ""
+        format: "MMMM/YYYY"
+        date_format: "MMMM/YYYY"
+        picker_utc: true
       - label: "Cover Image"
         name: "cover_image"
         widget: "image"
