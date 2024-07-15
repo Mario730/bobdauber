@@ -2,9 +2,17 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: 'static/images/uploads'
+publish_mode: simple
+media_folder: 'static/uploads'
 
 site_url: 'https://bobdauber.com'
+display_url: 'https://bobdauber.com'
+
+logo_url: https://bobdauber.com/images/logo.svg
+
+search: false
+editor:
+  preview: false
 
 collections:
   - name: 'posts'
