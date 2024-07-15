@@ -32,8 +32,8 @@ collections:
         name: "date"
         widget: "datetime"
         default: ""
-        format: "MMMM/YYYY"
-        date_format: "MMMM/YYYY"
+        format: "MMMM YYYY"
+        date_format: "MMMM YYYY"
         picker_utc: true
       - label: "Cover Image"
         name: "cover_image"

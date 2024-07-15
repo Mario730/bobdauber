@@ -38,6 +38,9 @@ module.exports = {
                 path: `${__dirname}/static/posts`
             }
         },
-        'gatsby-plugin-image'
+        'gatsby-plugin-image',
+        'gatsby-plugin-sharp',
+        'gatsby-transformer-sharp',
+        'gatsby-transformer-remark'
     ],
 }

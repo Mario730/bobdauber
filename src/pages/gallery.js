@@ -1,20 +1,25 @@
 import * as React from 'react'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
+
 import Layout from '../components/layout'
 import Seo from '../components/seo'
+import {
+    galleryContainer,
+    galleryItem,
+    coverPic
+} from '../components/gallery.module.css'
 
 const GalleryPage = ({ data }) => {
     return (
         <Layout pageTitle="Gallery">
-            <ul>
-            {
-                data.allDirectory.nodes.map(node => (
-                <li key={node.name}>
-                    {node.name}
-                </li>
+            <div className={galleryContainer}> {
+                data.allMarkdownRemark.nodes.map(node => (
+                    <Link key={node.frontmatter.title} className={galleryItem} to={"/posts/"+node.frontmatter.title}>
+                        <GatsbyImage image={getImage(node.frontmatter.cover_image)} className={coverPic} />{node.frontmatter.title}<br />{node.frontmatter.date}
+                    </Link>
                 ))
-            }
-            </ul>
+            } </div>
         </Layout>
     )
 }
@@ -24,6 +29,22 @@ export const query = graphql`
         allDirectory(filter: {relativeDirectory: {eq: ""}}) {
             nodes {
                 name
+            }
+        }
+        allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
+            nodes {
+                frontmatter {
+                    title
+                    material
+                    date
+                    images
+                    cover_image {
+                        childImageSharp {
+                            gatsbyImageData
+                        }
+                    }
+                }
+                id
             }
         }
     }
