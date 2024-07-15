@@ -7,6 +7,8 @@ import Seo from '../components/seo'
 import {
     galleryContainer,
     galleryItem,
+    galleryText,
+    info,
     coverPic
 } from '../components/gallery.module.css'
 
@@ -16,7 +18,18 @@ const GalleryPage = ({ data }) => {
             <div className={galleryContainer}> {
                 data.allMarkdownRemark.nodes.map(node => (
                     <Link key={node.frontmatter.title} className={galleryItem} to={"/posts/"+node.frontmatter.title}>
-                        <GatsbyImage image={getImage(node.frontmatter.cover_image)} className={coverPic} />{node.frontmatter.title}<br />{node.frontmatter.date}
+                        <GatsbyImage image={getImage(node.frontmatter.cover_image)} className={coverPic} />
+                        <br />
+                        <div className={galleryText}>
+                            {node.frontmatter.title + " // " + node.frontmatter.date}
+                            <br />
+                            <div className={info}>
+                                {node.frontmatter.material + " // " +
+                                node.frontmatter.dimensions.width + "\" x " +
+                                node.frontmatter.dimensions.height+ "\" x " +
+                                node.frontmatter.dimensions.depth + "\""}
+                            </div>
+                        </div>
                     </Link>
                 ))
             } </div>
@@ -37,6 +50,11 @@ export const query = graphql`
                     title
                     material
                     date
+                    dimensions {
+                        width
+                        height
+                        depth
+                    }
                     cover_image {
                         childImageSharp {
                             gatsbyImageData

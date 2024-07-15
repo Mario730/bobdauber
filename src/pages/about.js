@@ -1,9 +1,13 @@
 import * as React from 'react'
+// import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
 
+import aboutPic from '../../static/uploads/bobsymposium.png'
+
 import {
-    text
+    text,
+    floated
 } from '../components/about.module.css'
 
 const AboutPage = () => {
@@ -12,6 +16,7 @@ const AboutPage = () => {
             <body>
                 <h1>ABOUT</h1><br />
                 <div className={text}>
+                    <img className={floated} src={aboutPic} alt="Bob Dauber" />
                     <p>Bob Dauber is a stone sculptor living in Scottsdale, Arizona. His first
 experience carving stone was in 1973, his freshman year at Pomona
 College. “I enrolled in a sculpture class and the instructor showed us how
@@ -29,7 +34,7 @@ bought some hand tools and a few chunks of soft stone and watched some
 Youtube videos to refresh himself on the basics. “That incredible feeling I
 had as a college freshman—becoming one with the stone—returned
 immediately.”</p><br />
-                    <p>Learning of his new passion, a friend suggested Bob should look into
+                    <p >Learning of his new passion, a friend suggested Bob should look into
 MARBLE/marble, a stone carving symposium held each summer in the
 town of Marble, Colorado. “My first session at MARBLE/marble, in the
 summer of 2021, was transformative. The accomplished artists at the
