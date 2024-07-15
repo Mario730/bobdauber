@@ -37,9 +37,13 @@ export const query = graphql`
                     title
                     material
                     date
-                    images
                     cover_image {
                         childImageSharp {
+                            gatsbyImageData
+                        }
+                    }
+                    images {
+                        childrenImageSharp {
                             gatsbyImageData
                         }
                     }
