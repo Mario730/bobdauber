@@ -1,11 +1,13 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
 
 const postTemplate = ({ data, pageContext }) => {
     return (
         <Layout>
+            <GatsbyImage image={getImage(data.markdownRemark.frontmatter.cover_image)} />
             <p>{data.markdownRemark.frontmatter.title}</p>
         </Layout>
     )
