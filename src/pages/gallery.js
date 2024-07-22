@@ -17,7 +17,7 @@ const GalleryPage = ({ data }) => {
         <Layout pageTitle="Gallery">
             <div className={galleryContainer}> {
                 data.allMarkdownRemark.nodes.map(node => (
-                    <Link key={node.frontmatter.title} className={galleryItem} to={"/posts/"+node.frontmatter.title}>
+                    <Link key={node.frontmatter.title} className={galleryItem} to={"/posts/"+node.frontmatter.title.toLowerCase()}>
                         <GatsbyImage image={getImage(node.frontmatter.cover_image)} className={coverPic} />
                         <br />
                         <div className={galleryText}>

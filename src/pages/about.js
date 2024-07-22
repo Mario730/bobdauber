@@ -13,7 +13,7 @@ import {
 const AboutPage = () => {
     return (
         <Layout>
-            <body>
+            <div>
                 <h1>ABOUT</h1><br />
                 <div className={text}>
                     <img className={floated} src={aboutPic} alt="Bob Dauber" />
@@ -50,7 +50,7 @@ interesting by-product, but I am doing it for the process.”</p><br />
                     <p>Most of Bob's sculptures evoke improbable, organic shapes and figures,
                     from the whimsical to the abstract.</p>
                 </div>
-            </body>
+            </div>
         </Layout>
     )
 }

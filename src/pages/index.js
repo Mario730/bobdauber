@@ -8,7 +8,7 @@ const isBrowser = typeof window !== "undefined"
 const IndexPage = () => {
     return (
         <Layout>
-            <body>
+            <div>
                 <div>
                     <p>Home</p>
                 </div>
@@ -24,7 +24,7 @@ const IndexPage = () => {
                     })}
                 }) () : null }
                 </script>
-            </body>
+            </div>
         </Layout>
     )
 }
