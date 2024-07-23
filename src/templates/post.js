@@ -4,10 +4,27 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
 
+import {
+    cover,
+    flexContainer,
+    extrasContainer,
+    extraImage
+} from '../components/post.module.css'
+
 const postTemplate = ({ data, pageContext }) => {
     return (
         <Layout>
-            <GatsbyImage image={getImage(data.markdownRemark.frontmatter.cover_image)} />
+            <div className={flexContainer}>
+                <GatsbyImage image={getImage(data.markdownRemark.frontmatter.cover_image)} className={cover} alt="Cover Image"/>
+                <div className={extrasContainer}>
+                    {
+                        data.markdownRemark.frontmatter.images.map((image, index) => (
+                            <GatsbyImage key={index} image={getImage(image)} alt="Additional Images" className={extraImage}/>
+                        ))
+                    }
+                </div>
+            </div>
+            <br />
             <p>{data.markdownRemark.frontmatter.title}</p>
         </Layout>
     )
@@ -31,7 +48,7 @@ export const query = graphql`
                     }
                 }
                 images {
-                    childrenImageSharp {
+                    childImageSharp {
                         gatsbyImageData
                     }
                 }

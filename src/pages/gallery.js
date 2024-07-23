@@ -18,7 +18,7 @@ const GalleryPage = ({ data }) => {
             <div className={galleryContainer}> {
                 data.allMarkdownRemark.nodes.map(node => (
                     <Link key={node.frontmatter.title} className={galleryItem} to={"/posts/"+node.frontmatter.title.toLowerCase()}>
-                        <GatsbyImage image={getImage(node.frontmatter.cover_image)} className={coverPic} />
+                        <GatsbyImage image={getImage(node.frontmatter.cover_image)} className={coverPic} alt="Cover Image"/>
                         <br />
                         <div className={galleryText}>
                             {node.frontmatter.title + " // " + node.frontmatter.date}
@@ -39,11 +39,6 @@ const GalleryPage = ({ data }) => {
 
 export const query = graphql`
     query {
-        allDirectory(filter: {relativeDirectory: {eq: ""}}) {
-            nodes {
-                name
-            }
-        }
         allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
             nodes {
                 frontmatter {
