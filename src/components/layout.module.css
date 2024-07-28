@@ -29,7 +29,7 @@ nav {
     width: 100vw;
     background-color: #ffffff;
     display: flex;
-    box-shadow: 0vh 0vh 3vh #1e1e1e;
+    box-shadow: 0vh -1vh 3vh #1e1e1e;
     position: sticky;
     top: 0;
     z-index: 1;

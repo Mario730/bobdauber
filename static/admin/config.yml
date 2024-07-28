@@ -51,3 +51,6 @@ collections:
         name: "images"
         widget: "list"
         field: {label: "Image", name: "image", widget: "image"}
+      - label: "Description"
+        name: "description"
+        widget: "text"

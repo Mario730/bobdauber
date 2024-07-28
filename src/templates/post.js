@@ -37,6 +37,7 @@ export const query = graphql`
                 title
                 material
                 date
+                description
                 dimensions {
                     width
                     height
