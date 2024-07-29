@@ -8,8 +8,6 @@ media_folder: 'static/uploads'
 site_url: 'https://bobdauber.com'
 display_url: 'https://bobdauber.com'
 
-logo_url: https://bobdauber.com/images/logo.svg
-
 search: false
 editor:
   preview: false

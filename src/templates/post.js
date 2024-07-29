@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+
 import Layout from '../components/layout'
 import Seo from '../components/seo'
 
@@ -8,12 +9,14 @@ import {
     cover,
     flexContainer,
     extrasContainer,
-    extraImage
+    extraImage,
+    info
 } from '../components/post.module.css'
 
 const postTemplate = ({ data, pageContext }) => {
     return (
         <Layout>
+            <h1>{data.markdownRemark.frontmatter.title.toUpperCase()}</h1>
             <div className={flexContainer}>
                 <GatsbyImage image={getImage(data.markdownRemark.frontmatter.cover_image)} className={cover} alt="Cover Image"/>
                 <div className={extrasContainer}>
@@ -25,7 +28,9 @@ const postTemplate = ({ data, pageContext }) => {
                 </div>
             </div>
             <br />
-            <p>{data.markdownRemark.frontmatter.title}</p>
+            <div className={info}>
+                    <p>yo</p>
+            </div>
         </Layout>
     )
 }

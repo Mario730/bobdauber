@@ -5,4 +5,4 @@
 - home page cycle image,
     - feed of new posts
 
-- make individual page for each piece
+- ask about vertical/horizontal images, cover images should all be same orientation

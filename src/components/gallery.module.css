@@ -1,7 +1,7 @@
 .gallery-container {
     width: 100vw;
     height: 100%;
-    /* margin: 5vw; */
+    padding: 2vmax;
     /* border: 1px solid black; */
     display: flex;
     flex-wrap: wrap;
@@ -11,7 +11,7 @@
 .gallery-item {
     text-decoration: none;
     list-style-type: none;
-    margin: 2vw;
+    /* margin: 2vw; */
     /* border: 1px solid black; */
     /* border-radius: 5px; */
     min-width: 25vw;
@@ -20,7 +20,7 @@
 
 @media screen and (min-width: 800px) {
     .gallery-item {
-        max-width: 25vw;
+        max-width: 28vw;
     }
 }
 

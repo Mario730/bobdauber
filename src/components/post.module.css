@@ -1,3 +1,10 @@
+h1 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 4em;
+    font-weight: 300;
+    color: grey;
+}
+
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -45,4 +52,8 @@
     .extra-image {
         width: 80vw;
     }
+}
+
+.info {
+    margin: 5vmax;
 }
