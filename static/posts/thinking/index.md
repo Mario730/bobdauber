@@ -1,6 +1,6 @@
 ---
 title: Thinking
-material: St. Lauren marble (France) on granite base
+material: St. Laurent marble (France) on granite base
 dimensions:
   width: 12
   height: 15
