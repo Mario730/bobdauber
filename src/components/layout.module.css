@@ -59,6 +59,37 @@ nav .nav-links a {
 nav .nav-links a:hover {
     color: grey;
 }
+nav .nav-heading {
+    display: inline-flex;
+    /* align-items: center; */
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.3vmax;
+    color: rgb(29, 29, 29);
+    /* justify-self: center; */
+    /* align-self: center; */
+    position: relative;
+    align-self: center;
+}
+@media screen and (max-width: 1000px) {
+    nav .nav-heading-box {
+        display: none;
+    }
+    nav .nav-heading {
+        display: none;
+    }
+}
+nav .nav-heading-box {
+    height: 13vh;
+    width: 100vw;
+    justify-content: center;
+    /* justify-items: center; */
+    /* align-self: middle; */
+    padding: 4.5vh 0vw;
+    position: absolute;
+    display: flex;
+    z-index: -5;
+}
 main {
     margin-top: 3vw;
     font-size: 1.2em;

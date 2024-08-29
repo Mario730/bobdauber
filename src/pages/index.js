@@ -68,7 +68,7 @@ const IndexPage = ({ data }) => {
 
 export const query = graphql`
     query {
-        allMarkdownRemark {
+        allMarkdownRemark(sort: { frontmatter: { date: DESC } }, filter: {frontmatter: {title: {ne: "bio"}}}) {
             nodes {
                 id
                 frontmatter {
@@ -89,6 +89,6 @@ export const query = graphql`
     }
 `
 
-export const Head = () => <Seo title="Home"/>
+export const Head = () => <Seo title="Creations in Stone"/>
 
 export default IndexPage

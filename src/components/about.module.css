@@ -20,11 +20,12 @@
 
 .text {
     font-weight: 300;
-    font-size: 1.2em;
+    font-size: 2vh;
     margin-left: 10%;
     padding: 2vh;
     text-align: center;
     width: 80%;
+    line-height: 1.7;
 }
 
 h1 {

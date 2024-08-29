@@ -1,8 +1,16 @@
 ## Todo:
 
-- mobile design
 
-- home page cycle image,
-    - feed of new posts
+- home page carousel
 
-- ask about vertical/horizontal images, cover images should all be same orientation
+- cover images should all be same orientation
+
+- lightbox / photoswipe
+
+- make "about" page editable
+    - make image caption own field!
+
+- add price field to posts
+    display on post page, not in gallery
+
+- set up email with the domain

@@ -52,3 +52,13 @@ collections:
       - label: "Description"
         name: "description"
         widget: "text"
+  - name: 'about'
+    label: 'About Page'
+    files:
+      - label: 'Bio'
+        name: 'bio'
+        file: 'static/about/bio.md'
+        fields:
+          - label: 'text'
+            name: 'text'
+            widget: 'text'

@@ -10,7 +10,8 @@ import {
     flexContainer,
     extrasContainer,
     extraImage,
-    info
+    info,
+    description
 } from '../components/post.module.css'
 
 const postTemplate = ({ data, pageContext }) => {
@@ -29,7 +30,11 @@ const postTemplate = ({ data, pageContext }) => {
             </div>
             <br />
             <div className={info}>
-                    <p>yo</p>
+                {data.markdownRemark.frontmatter.material.toUpperCase() + " // " + data.markdownRemark.frontmatter.date.toUpperCase()} <br /> 
+                {data.markdownRemark.frontmatter.dimensions.width + "\" x " + data.markdownRemark.frontmatter.dimensions.height + "\" x " + data.markdownRemark.frontmatter.dimensions.depth + "\""}
+            </div>
+            <div className={description}>
+                {data.markdownRemark.frontmatter.description}
             </div>
         </Layout>
     )

@@ -1,11 +1,12 @@
 h1 {
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 4em;
+    font-size: 5em;
     font-weight: 300;
     color: grey;
 }
 
 .flex-container {
+    margin-top: 2vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -55,5 +56,19 @@ h1 {
 }
 
 .info {
-    margin: 5vmax;
+    margin: 1vh 10vw;
+    color: rgb(126, 126, 126);
+    font-family: 'Helvetica Neue';
+    font-size: 2vmax;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.description {
+    margin: 1vh 10vw;
+    color: rgb(56, 56, 56);
+    font-family: 'Helvetica Neue';
+    font-size: 1.5vmax;
+    font-weight: 500;
+    line-height: 1.5;
 }
