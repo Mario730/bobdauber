@@ -36,6 +36,7 @@ const postTemplate = ({ data, pageContext }) => {
             <div className={description}>
                 {data.markdownRemark.frontmatter.description}
             </div>
+            <div style={{height:"15vh"}}></div>
         </Layout>
     )
 }

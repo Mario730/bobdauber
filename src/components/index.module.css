@@ -1,19 +1,21 @@
 .carousel {
-    margin: 5vw;
+    margin: 0vh 5vw;
     width: 90vw;
-    height: 60vh;
-    display: block;
+    height: 75vh;
 }
 
 .slider-link {
+    display: flex;
+    align-content: center;
     /* max-width: 80vw; */
-    height: 60vh;
+    height: 75vh;
 }
 
 .carousel-image {
     /* width: 80vw; */
-    min-width: 30vw;
-    max-width: 80vw;
-    height: 60vh;
-    object-fit: contain;
+    /* min-width: 30vw; */
+    /* max-width: 80vw; */
+    /* height: 60vh; */
+    object-fit: scale-down;
+    /* max-height: 80vh; */
 }
