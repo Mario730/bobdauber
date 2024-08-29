@@ -7,7 +7,7 @@ exports.createPages = async ({ graphql, actions }) => {
     
     const result = await graphql(`
         query {
-            allMarkdownRemark {
+            allMarkdownRemark (filter: {frontmatter: {title: {ne: "bio"}}}) {
                 nodes {
                     id
                     frontmatter {
