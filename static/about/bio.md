@@ -1,6 +1,6 @@
 ---
-title: 'bio'
-caption: "Bob at MARBLE/marble"
+title: bio
+caption: Bob at  MARBLE/marble symposium
 ---
 Bob Dauber is a stone sculptor living in Scottsdale, Arizona. His first experience carving stone was in 1973, his freshman year at Pomona College. “I enrolled in a sculpture class and the instructor showed us how to use hand tools—hammers, chisels, rasps and files—to create shapes from alabaster and other soft stones. I fell in love with the process—the intense focus that carving requires, and the sense of losing oneself in the stone. I ended up spending far more time in the studio than the course required.” Although he may have had fantasies of building his own studio and becoming a sculptor, Bob's life took a different turn. He did not pick up a hammer and chisel again for 48 years.
 
