@@ -7,6 +7,8 @@
 
 - lightbox / photoswipe
 
+- find good heading font
+
 - make "about" page editable
     - make image caption own field!
 

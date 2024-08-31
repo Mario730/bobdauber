@@ -59,6 +59,9 @@ collections:
         name: 'bio'
         file: 'static/about/bio.md'
         fields:
-          - label: 'text'
-            name: 'text'
+          - label: 'caption'
+            name: 'caption'
             widget: 'text'
+          - label: 'body'
+            name: 'body'
+            widget: 'markdown'

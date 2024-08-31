@@ -33,6 +33,7 @@ const GalleryPage = ({ data }) => {
                     </Link>
                 ))
             } </div>
+            <div style={{height:"15vh"}}></div>
         </Layout>
     )
 }

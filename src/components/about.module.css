@@ -43,6 +43,11 @@ h1 {
     width: 30%;
 }
 
+.floated img{
+    width: 100%;
+    height: auto;
+}
+
 @media screen and (max-width: 800px) {
     .floated {
         width: 80vw;

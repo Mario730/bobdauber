@@ -17,6 +17,7 @@
         "prerun": "source ~/.nvm/nvm.sh && nvm use 20.14.0"
     },
     "dependencies": {
+        "fslightbox-react": "^1.7.6",
         "gatsby": "^5.13.5",
         "gatsby-adapter-netlify": "^1.1.6",
         "gatsby-plugin-image": "^3.13.1",

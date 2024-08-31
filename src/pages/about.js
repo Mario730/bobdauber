@@ -17,7 +17,12 @@ const AboutPage = ({ data }) => {
             <div>
                 <h1>ABOUT</h1><br />
                 <div className={text}>
-                    <img className={floated} src={aboutPic} alt="Bob Dauber" />
+                    <figure className={floated} >
+                        <img src={aboutPic} alt="Bob Dauber" />
+                        <figcaption>{data.allMarkdownRemark.nodes.map( node => (
+                            node.frontmatter.caption
+                        ))}</figcaption>
+                    </figure>
                     <p>{data.allMarkdownRemark.nodes.map( node => (
                         <p>{node.rawMarkdownBody}</p>
                     ))}</p>
@@ -32,6 +37,9 @@ export const query = graphql`
         allMarkdownRemark(filter: {frontmatter: {title: {eq: "bio"}}}) {
             nodes {
                 rawMarkdownBody
+                frontmatter {
+                    caption
+                }
             }
         }
     }
