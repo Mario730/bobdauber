@@ -52,6 +52,10 @@ collections:
       - label: "Description"
         name: "description"
         widget: "text"
+      - label: "Price"
+        name: "price"
+        widget: "number"
+        value_type: "float"
   - name: 'about'
     label: 'About Page'
     files:

@@ -12,4 +12,5 @@ images:
   - images/flexing2.jpeg
   - images/flexing3.jpeg
 description: Flexing description
+price: 100.00
 ---

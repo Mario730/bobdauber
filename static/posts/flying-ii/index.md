@@ -15,4 +15,5 @@ images:
   - images/flyingpig5.jpeg
   - images/flyingpig6.jpeg
 description: description
+price: 
 ---
