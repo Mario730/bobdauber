@@ -34,13 +34,11 @@ collections:
           - {label: "Width", name: "width", widget: "number", value_type: "float"}
           - {label: "Height", name: "height", widget: "number", value_type: "float"}
           - {label: "Depth", name: "depth", widget: "number", value_type: "float"}
-      - label: "Date"
-        name: "date"
-        widget: "datetime"
-        default: ""
-        format: "MMMM YYYY"
-        date_format: "MMMM YYYY"
-        picker_utc: true
+      - label: "Year"
+        name: "year"
+        widget: "number"
+        default: 2024
+        value_type: "int"
       - label: "Cover Image"
         name: "cover_image"
         widget: "image"
@@ -52,9 +50,11 @@ collections:
       - label: "Description"
         name: "description"
         widget: "text"
+        default: ""
       - label: "Price"
         name: "price"
         widget: "number"
+        default: 0.00
         value_type: "float"
   - name: 'about'
     label: 'About Page'

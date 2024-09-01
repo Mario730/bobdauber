@@ -21,7 +21,7 @@ const GalleryPage = ({ data }) => {
                         <GatsbyImage image={getImage(node.frontmatter.cover_image)} className={coverPic} alt="Cover Image"/>
                         <br />
                         <div className={galleryText}>
-                            {node.frontmatter.title + " // " + node.frontmatter.date}
+                            {node.frontmatter.title + " // " + node.frontmatter.year}
                             <br />
                             <div className={info}>
                                 {node.frontmatter.material + " // " +
@@ -40,12 +40,12 @@ const GalleryPage = ({ data }) => {
 
 export const query = graphql`
     query {
-        allMarkdownRemark(sort: { frontmatter: { date: DESC } }, filter: {frontmatter: {title: {ne: "bio"}}}) {
+        allMarkdownRemark(sort: { frontmatter: { year: DESC } }, filter: {frontmatter: {title: {ne: "bio"}}}) {
             nodes {
                 frontmatter {
                     title
                     material
-                    date
+                    year
                     dimensions {
                         width
                         height

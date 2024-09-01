@@ -5,7 +5,7 @@ dimensions:
   width: 12.5
   height: 8
   depth: 4.5
-date: July 2024
+year: 2024
 cover_image: images/cover/flexing.jpeg
 images:
   - images/flexing1.jpeg

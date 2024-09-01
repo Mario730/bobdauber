@@ -31,9 +31,9 @@ const postTemplate = ({ data, pageContext }) => {
             </div>
             <br />
             <div className={info}>
-                {data.markdownRemark.frontmatter.material.toUpperCase() + " // " + data.markdownRemark.frontmatter.date.toUpperCase()} <br /> 
+                {data.markdownRemark.frontmatter.material.toUpperCase() + " // " + data.markdownRemark.frontmatter.year} <br /> 
                 {data.markdownRemark.frontmatter.dimensions.width + "\" x " + data.markdownRemark.frontmatter.dimensions.height + "\" x " + data.markdownRemark.frontmatter.dimensions.depth + "\""} <br /><br />
-                {data.markdownRemark.frontmatter.price !== null ? "$" + data.markdownRemark.frontmatter.price.toFixed(2) : ""}
+                {data.markdownRemark.frontmatter.price !== 0 ? "$" + data.markdownRemark.frontmatter.price.toFixed(2) : ""}
             </div>
             <div className={description}>
                 {data.markdownRemark.frontmatter.description}
@@ -49,7 +49,7 @@ export const query = graphql`
             frontmatter {
                 title
                 material
-                date
+                year
                 description
                 price
                 dimensions {

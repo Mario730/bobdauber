@@ -5,7 +5,7 @@ dimensions:
   height: 12.5
   width: 4.5
   depth: 8
-date: July 2024
+year: 2024
 cover_image: images/cover/flyingpig.jpeg
 images:
   - images/flyingpig1.jpeg
@@ -15,5 +15,5 @@ images:
   - images/flyingpig5.jpeg
   - images/flyingpig6.jpeg
 description: description
-price: 
+price: 0.00
 ---

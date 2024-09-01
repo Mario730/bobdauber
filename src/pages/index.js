@@ -68,7 +68,7 @@ const IndexPage = ({ data }) => {
 
 export const query = graphql`
     query {
-        allMarkdownRemark(sort: { frontmatter: { date: DESC } }, filter: {frontmatter: {title: {ne: "bio"}}}) {
+        allMarkdownRemark(sort: { frontmatter: { year: DESC } }, filter: {frontmatter: {title: {ne: "bio"}}}) {
             nodes {
                 id
                 frontmatter {
