@@ -50,7 +50,6 @@ collections:
       - label: "Description"
         name: "description"
         widget: "text"
-        default: ""
       - label: "Price"
         name: "price"
         widget: "number"
