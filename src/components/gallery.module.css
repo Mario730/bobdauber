@@ -25,7 +25,7 @@
 @media screen and (min-width: 800px) {
     .gallery-item {
         max-width: 28vw;
-        /* min-height: 60vh; */
+        min-height: 60vh;
         align-self: start;
     }
 }
