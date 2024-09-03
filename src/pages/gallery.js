@@ -53,7 +53,7 @@ export const query = graphql`
                     }
                     cover_image {
                         childImageSharp {
-                            gatsbyImageData
+                            gatsbyImageData(aspectRatio: 0.8)
                         }
                     }
                 }

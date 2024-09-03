@@ -12,10 +12,6 @@
 }
 
 .carousel-image {
-    /* width: 80vw; */
-    /* min-width: 30vw; */
-    /* max-width: 80vw; */
-    /* height: 60vh; */
-    object-fit: scale-down;
+    object-fit: contain;
     /* max-height: 80vh; */
 }

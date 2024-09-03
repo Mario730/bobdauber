@@ -74,15 +74,10 @@ export const query = graphql`
                 frontmatter {
                     cover_image {
                         childImageSharp {
-                            gatsbyImageData
+                            gatsbyImageData(aspectRatio: 0.8)
                         }
                     }
                     title
-                    images {
-                        childImageSharp {
-                            gatsbyImageData
-                        }
-                    }
                 }
             }
         }
