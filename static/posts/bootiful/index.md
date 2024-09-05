@@ -4,7 +4,7 @@ material: Honeycomb calcite (Utah) on granite base.
 dimensions:
   width: 4
   height: 7.5
-  depth: -9
+  depth: 3
 year: 2011
 cover_image: images/cover/bootiful.jpeg
 images:
