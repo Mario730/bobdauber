@@ -11,6 +11,6 @@ images:
   - images/thinking1.jpeg
   - images/thinking2.jpeg
   - images/thinking3.jpeg
-description: blank
+description: Blank
 price: 0
 ---

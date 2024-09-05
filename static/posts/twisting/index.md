@@ -12,6 +12,6 @@ images:
   - images/twisting2.jpeg
   - images/twisting3.jpeg
   - images/twisting4.jpeg
-description: blank
+description: Blank
 price: 0
 ---

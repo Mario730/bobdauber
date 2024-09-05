@@ -11,6 +11,6 @@ images:
   - images/hoot1.jpeg
   - images/hoot2.jpeg
   - images/hoot3.jpeg
-description: blank
+description: Blank
 price: 0
 ---

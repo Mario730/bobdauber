@@ -10,6 +10,6 @@ cover_image: images/cover/bootiful.jpeg
 images:
   - images/bootiful1.jpeg
   - images/bootiful2.jpeg
-description: Will add later
+description: Blank
 price: 0
 ---

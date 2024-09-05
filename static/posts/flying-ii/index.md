@@ -14,6 +14,6 @@ images:
   - images/flyingpig4.jpeg
   - images/flyingpig5.jpeg
   - images/flyingpig6.jpeg
-description: description
+description: Blank
 price: 0
 ---
