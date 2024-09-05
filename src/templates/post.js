@@ -36,7 +36,7 @@ const postTemplate = ({ data, pageContext }) => {
                 {data.markdownRemark.frontmatter.price !== 0 ? "$" + data.markdownRemark.frontmatter.price.toFixed(2) : ""}
             </div>
             <div className={description}>
-                {data.markdownRemark.frontmatter.description}
+                {data.markdownRemark.frontmatter.description === "Blank" ? "" : data.markdownRemark.frontmatter.description}
             </div>
             <div style={{height:"15vh"}}></div>
         </Layout>
