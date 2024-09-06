@@ -10,6 +10,7 @@ cover_image: images/cover/bootiful.jpeg
 images:
   - images/bootiful1.jpeg
   - images/bootiful2.jpeg
-description: Blank
+description: '"What you goin do with all that junk/All that junk inside your
+  trunk?"-Black-Eyed Peas'
 price: 0
 ---
