@@ -14,6 +14,8 @@ images:
   - images/flyingpig4.jpeg
   - images/flyingpig5.jpeg
   - images/flyingpig6.jpeg
-description: Blank
+description: 'In 2010, at the age of 55, I married Lisa, my beautiful wife.  It
+  was my first marriage.  Hence, our wedding theme: "when pigs fly." Our house
+  is filled with flying pigs of all shapes and sizes.'
 price: 0
 ---
