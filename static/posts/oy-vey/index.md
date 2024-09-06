@@ -11,7 +11,7 @@ images:
   - images/oy-vey-2.jpg
   - images/oy-vey-3.jpg
   - images/oy-vey-4.jpg
-  - images/oy-vey-5.jpg
+  - images/oy-vey-1.jpg
 description: This stone seems to be channeling my Yiddish mother.
 price: 0
 ---
