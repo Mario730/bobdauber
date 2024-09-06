@@ -11,6 +11,6 @@ images:
   - images/hoot1.jpeg
   - images/hoot2.jpeg
   - images/hoot3.jpeg
-description: Blank
+description: Hoot lives in Santa Fe, New Mexico.
 price: 0
 ---
