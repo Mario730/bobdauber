@@ -10,6 +10,10 @@ cover_image: images/cover/img_0691-edited-.jpg
 images:
   - images/img_0706-edited-.jpg
   - images/img_0668-edited-.jpg
-description: '"Dark Star crashes, pouring its light into ashes." -Robert Hunter'
+  - images/img_0668-edited-.jpg
+description: >-
+  "Dark Star crashes, pouring its light into ashes." -Robert Hunter
+
+  As I began working with this beautiful rock, I discovered gold and white veins that seemed to be bursting from a central point; or, conversely, streaks of energy being sucked in to a void.  
 price: 0
 ---
