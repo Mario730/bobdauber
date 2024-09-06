@@ -8,11 +8,10 @@ dimensions:
 year: 2022
 cover_image: images/cover/img_0768-2-.jpg
 images:
-  - images/img_0768-2-.jpg
-  - images/img_0746-1-.jpg
-  - images/img_0765-2-.jpg
-  - images/img_0733-2-.jpg
-  - images/img_0760-2-.jpg
-description: I was channeling my Yiddish speaking mother, Tilly, as I carved this stone
+  - images/oy-vey-2.jpg
+  - images/oy-vey-3.jpg
+  - images/oy-vey-4.jpg
+  - images/oy-vey-5.jpg
+description: This stone seems to be channeling my Yiddish mother.
 price: 0
 ---
