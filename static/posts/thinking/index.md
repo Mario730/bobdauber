@@ -1,6 +1,6 @@
 ---
 title: Thinking
-material: St. Laurent marble (France) on granite base
+material: MedRed marble (Turkey) on granite base
 dimensions:
   width: 12
   height: 15
@@ -11,6 +11,6 @@ images:
   - images/thinking1.jpeg
   - images/thinking2.jpeg
   - images/thinking3.jpeg
-description: Blank
+description: Thank you, Monsieur Rodin, for the inspiration
 price: 0
 ---
