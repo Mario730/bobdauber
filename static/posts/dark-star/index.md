@@ -8,9 +8,9 @@ dimensions:
 year: 2022
 cover_image: images/cover/img_0691-edited-.jpg
 images:
-  - images/img_0706-edited-.jpg
-  - images/img_0668-edited-.jpg
-  - images/img_0668-edited-.jpg
+  - images/darkstar3.jpg
+  - images/darkstar4.jpg
+  - images/darkstar5.jpg
 description: >-
   "Dark Star crashes, pouring its light into ashes." -Robert Hunter
 
