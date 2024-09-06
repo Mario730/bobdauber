@@ -15,5 +15,5 @@ images:
 description: B'reisheet is the the first word of the Hebrew Bible--"In the
   beginning."  It tells a creation story about how light pierced the chaos that
   existed at the earth's genesis.
-price: 0
+price: 1
 ---
