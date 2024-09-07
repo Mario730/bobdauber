@@ -12,5 +12,5 @@ images:
   - images/flexing2.jpeg
   - images/flexing3.jpeg
 description: Blank
-price: 100
+price: 0
 ---
