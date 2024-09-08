@@ -12,6 +12,6 @@ images:
   - images/twisting2.jpeg
   - images/twisting3.jpeg
   - images/twisting4.jpeg
-description: Blank
+description: "\"They're twistin' the night away.\"  -Sam Cooke."
 price: 0
 ---
