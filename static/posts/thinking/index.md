@@ -11,6 +11,7 @@ images:
   - images/thinking1.jpeg
   - images/thinking2.jpeg
   - images/thinking3.jpeg
+  - images/thinking2b.jpg
 description: Thank you, Monsieur Rodin, for the inspiration
 price: 0
 ---
