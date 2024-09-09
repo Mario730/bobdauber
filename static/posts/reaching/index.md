@@ -5,7 +5,7 @@ dimensions:
   width: 8
   height: 15
   depth: 6.5
-year: 2024
+year: 2022
 cover_image: images/cover/fullsizerender.jpeg
 images:
   - images/reaching1.jpeg
