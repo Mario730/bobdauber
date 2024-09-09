@@ -11,6 +11,8 @@ images:
   - images/flexing1.jpeg
   - images/flexing2.jpeg
   - images/flexing3.jpeg
-description: Blank
+  - images/flexing2a.jpg
+description: At certain angles, the face is nicely reflected in the polished
+  granite base.  I wish I could say that was intentional.
 price: 0
 ---
