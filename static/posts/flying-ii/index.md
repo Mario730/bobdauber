@@ -5,7 +5,7 @@ dimensions:
   height: 12.5
   width: 4.5
   depth: 8
-year: 2025
+year: 2023
 cover_image: images/cover/flyingpig.jpeg
 images:
   - images/flyingpig1.jpeg
