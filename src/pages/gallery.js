@@ -21,13 +21,10 @@ const GalleryPage = ({ data }) => {
                         <GatsbyImage image={getImage(node.frontmatter.cover_image)} className={coverPic} alt="Cover Image"/>
                         <br />
                         <div className={galleryText}>
-                            {node.frontmatter.title + " // " + node.frontmatter.year}
+                            {node.frontmatter.title}
                             <br />
                             <div className={info}>
-                                {node.frontmatter.material + " // " +
-                                node.frontmatter.dimensions.width + "\" x " +
-                                node.frontmatter.dimensions.height+ "\" x " +
-                                node.frontmatter.dimensions.depth + "\""}
+                                {node.frontmatter.material}
                             </div>
                         </div>
                     </Link>
