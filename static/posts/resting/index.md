@@ -14,5 +14,5 @@ images:
   - images/resting4.jpeg
 description: This is the stone that started it all- my first marble sculpture,
   carved during the 2021 MARBLE/marble Symposium.
-price: 0
+price: 1800
 ---
