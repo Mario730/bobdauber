@@ -1,6 +1,6 @@
 ---
 title: Dark Star
-material: St. Laurent marble (France) on granite base with turning pin
+material: St. Laurent marble (France) on black granite base with turning pin
 dimensions:
   width: 9
   height: 20
@@ -16,5 +16,5 @@ description: '"Dark Star crashes, pouring its light into ashes." -Robert
   Hunter.  As I began working with this beautiful rock, I discovered gold and
   white veins that seemed to be bursting from a central point; or, conversely,
   streaks of energy being sucked in to a void.  '
-price: 0
+price: 1800
 ---
