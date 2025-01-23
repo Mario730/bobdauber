@@ -1,6 +1,6 @@
 ---
 title: Noodling
-material: Yule marble (Colorado) on granite base.
+material: Yule marble (Colorado) on black granite base.
 dimensions:
   height: 7
   width: 9
@@ -11,6 +11,6 @@ images:
   - images/noodling1.jpeg
   - images/noodling2.jpeg
   - images/noodling3.jpeg
-description: Soft and freeform.
-price: 0
+description: Soft and freeform, defying the hardness of the stone.
+price: 600
 ---
