@@ -1,6 +1,6 @@
 ---
 title: Twisting
-material: Honeycomb calcite
+material: Honeycomb calcite on black granite base
 dimensions:
   height: 12
   width: 9
@@ -13,5 +13,5 @@ images:
   - images/twisting3.jpeg
   - images/twisting4.jpeg
 description: "\"They're twistin' the night away.\"  -Sam Cooke."
-price: 0
+price: 1200
 ---
