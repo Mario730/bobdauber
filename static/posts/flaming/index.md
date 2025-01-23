@@ -1,6 +1,6 @@
 ---
 title: Flaming
-material: Honeycomb calcite (Utah) on granite base
+material: Honeycomb calcite (Utah) on black granite base
 dimensions:
   width: 8.5
   height: 13
@@ -12,5 +12,5 @@ images:
   - images/flaming3.jpg
   - images/flaming4.jpg
 description: Translucent fire.
-price: 0
+price: 600
 ---
