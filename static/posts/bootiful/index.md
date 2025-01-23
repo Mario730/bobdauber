@@ -1,6 +1,6 @@
 ---
 title: Bootiful
-material: Honeycomb calcite (Utah) on granite base.
+material: Honeycomb calcite (Utah) on black granite base.
 dimensions:
   width: 4
   height: 7.5
@@ -12,5 +12,5 @@ images:
   - images/bootiful2.jpeg
 description: '"What you goin do with all that junk/All that junk inside your
   trunk?"-Black-Eyed Peas'
-price: 0
+price: 600
 ---
