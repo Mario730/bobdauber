@@ -1,6 +1,6 @@
 ---
 title: Oy Vey
-material: Yule marble (Colorado) on granite base
+material: Yule marble (Colorado) on black granite base
 dimensions:
   width: 7
   height: 21
@@ -13,5 +13,5 @@ images:
   - images/oy-vey-4.jpg
   - images/oy-vey-1.jpg
 description: This stone seems to be channeling my Yiddish mother.
-price: 0
+price: 1800
 ---
