@@ -1,6 +1,6 @@
 ---
 title: Thinking
-material: MedRed marble (Turkey) on granite base
+material: MedRed marble (Turkey) on black granite base
 dimensions:
   width: 12
   height: 15
@@ -12,6 +12,7 @@ images:
   - images/thinking2.jpeg
   - images/thinking3.jpeg
   - images/thinking2b.jpg
-description: Thank you, Monsieur Rodin, for the inspiration
-price: 0
+description: Thank you, Monsieur Rodin, for the inspiration.  The red inclusions
+  and white striations found in this marble are intoxicating.
+price: 1800
 ---
