@@ -11,6 +11,8 @@ images:
   - images/img_1152-edited-.jpg
   - images/img_1156-edited-.jpg
   - images/img_1157-edited-.jpg
-description: Hoping your dreams come true.
+description: This beautiful white marble, quarried by Colorado Stone Quarries,
+  has dark grey veins.  Trying to make hard appear soft.  She seems to be
+  dreaming of even more beautiful days ahead.
 price: 1800
 ---
