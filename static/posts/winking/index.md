@@ -6,11 +6,13 @@ dimensions:
   height: 15
   depth: 1
 year: 2023
-cover_image: images/cover/img_1089-edited-.jpg
+cover_image: images/cover/img_1082-edited-.jpg
 images:
   - images/img_1082-edited-.jpg
   - images/img_1089-edited-.jpg
-description: The features are suspended from the top of the sculpture with
-  fishing line.  Here's looking at you. kid.
+description: A mischievous nod to Picasso, or perhaps Lauren Bacall.  The
+  features are suspended from the top of the sculpture with fishing line.  "If
+  you want me, all you have to do is whistle.  You know how to whistle, don't
+  you Steve?  You just put your lips together and blow."
 price: 900
 ---
