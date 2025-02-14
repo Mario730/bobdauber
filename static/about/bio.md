@@ -9,10 +9,10 @@ Looking to feed his long simmering passion to work with stone, in 2021 Bob start
 
 Sculpting marble is a meditative process for Bob. “I lose all sense of time when I am in the studio trying to shape a stone. I feel that I get to know every cubic millimeter of the rock intimately. It tells me what it is willing, and not willing, to let me do. The resulting sculpture might be quite different from the idea I had when I started carving the rock.  Usually much better.”
 
-Most of Bob's sculptures evoke improbable, organic shapes and figures, from the whimsical to the abstract.                                   
+Most of Bob's sculptures evoke improbable, organic shapes and figures, from the whimsical to the abstract.                                                            
 
-\    CONTACT                                                                                                                                                                            
+\    \    CONTACT                                                                                                                                                                            
 
-\    Phone or Text:   (602)692-6082                                                                                                                                
+\    \    Phone or Text:   (602)692-6082                                                                                                                                
 
-\    e-mail:      bob@bobdauber.com
+\    \    e-mail:      bob@bobdauber.com
