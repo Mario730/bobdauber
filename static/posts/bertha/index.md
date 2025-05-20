@@ -1,6 +1,6 @@
 ---
 title: Bertha
-material: Belgian Black Marble
+material: Bardiglio Marble (Italy)
 dimensions:
   width: 6
   height: 14
