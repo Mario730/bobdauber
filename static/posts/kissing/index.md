@@ -6,9 +6,9 @@ dimensions:
   height: 15
   depth: 6
 year: 2025
-cover_image: images/cover/img_1592.jpg
+cover_image: images/cover/img_1578.jpg
 images:
-  - images/img_1578.jpg
+  - images/img_1592.jpg
   - images/img_1585.jpg
   - images/img_1576.jpg
 description: "\"You know how to whistle, don't you Steve?  You just put your
