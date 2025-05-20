@@ -15,7 +15,7 @@ images:
   - images/img_1163-2-.jpg
 description: This beautiful white marble, quarried in Colorado, has light grey
   veins.  My goal in carving this stone was to make hard appear soft.  The
-  figure seems to be dreaming--perhaps of the simpler days when she was just
+  figure seems to be dreaming- perhaps of the simpler days when she was just
   part of a mountain.
 price: 1800
 ---
