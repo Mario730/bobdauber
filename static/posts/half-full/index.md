@@ -15,5 +15,5 @@ description: '"Reach out your hand, if your cup be empty/ If your cup is full,
   may it be again..."  Ripple lyrics by Robert Hunter.  Special thanks to Jackie
   Benard for allowing me access to the beautiful marble collection in the estate
   of her late husband, Kenji Umeda.'
-price: 1200
+price: 1500
 ---
