@@ -13,9 +13,7 @@ images:
   - images/img_1196-3-.jpg
   - images/img_1217-edited-.jpg
   - images/img_1200-2-.jpg
-description: Like its solar and lunar cousins, this white marble eclipse speaks
-  through its shadows.  Each view reveals a different   image.  (As I was
-  sanding this piece, I discovered a small crack on one side.  I left it,
-  feeling the imperfection adds to its realness.)
+description: "Like its solar and lunar cousins, this white marble eclipse speaks
+  through its shadows.  Each view reveals a different   image. "
 price: 900
 ---
