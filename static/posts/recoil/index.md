@@ -8,9 +8,11 @@ dimensions:
 year: 2025
 cover_image: images/cover/img_2515.jpeg
 images:
-  - images/img_2516.jpeg
-  - images/img_2519.jpeg
   - images/img_2528.jpeg
-description: "The hard stone almost seems pliable. "
-price: 600
+  - images/img_2519.jpeg
+  - images/img_2516.jpeg
+  - images/img_2515.jpeg
+description: "An attempt to make hard stone seem pliable. The Arizona Mesquite
+  base was hand turned by Mark Caron. "
+price: 500
 ---
