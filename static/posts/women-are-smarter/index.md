@@ -16,5 +16,5 @@ description: "\"Believe me, it's the people who say/ That the men are leading
   the women astray/ But I say that the women today? Are smarter than the men in
   every way./ That's right, the women are smarter....\"  =Man Smart, Woman
   Smarter lyrics by Norman Span."
-price: 1200
+price: 2400
 ---
