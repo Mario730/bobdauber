@@ -12,5 +12,5 @@ images:
   - images/noodling2.jpeg
   - images/noodling3.jpeg
 description: Soft and freeform, defying the hardness of the stone.
-price: 600
+price: 1200
 ---
