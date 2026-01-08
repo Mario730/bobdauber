@@ -12,5 +12,5 @@ images:
   - images/flaming3.jpg
   - images/flaming4.jpg
 description: Translucent fire.
-price: 600
+price: 1200
 ---
