@@ -13,5 +13,5 @@ images:
   - images/oy-vey-4.jpg
   - images/oy-vey-1.jpg
 description: This stone seems to be channeling my Yiddish mother.
-price: 1800
+price: 3250
 ---
