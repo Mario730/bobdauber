@@ -14,5 +14,5 @@ images:
   - images/flexing2a.jpg
 description: "The absurdity of self-perceived power.  At certain angles, the
   face is nicely reflected in the polished granite base.  "
-price: 1800
+price: 3250
 ---
