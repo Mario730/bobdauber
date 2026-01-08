@@ -13,5 +13,5 @@ description: The features are suspended from the top of the sculpture with
   fishing line.  A mischievous nod to Picasso, or perhaps to Lauren
   Bacall.  "You know how to whistle, don't you, Steve?  You just put your lips
   together and blow."
-price: 900
+price: 1900
 ---
