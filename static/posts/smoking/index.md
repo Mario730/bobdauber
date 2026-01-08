@@ -12,5 +12,5 @@ images:
   - images/img_1146-2-.jpg
   - images/img_1138-3-.jpg
 description: "Smoke gets in your eyes.  "
-price: 900
+price: 1600
 ---
