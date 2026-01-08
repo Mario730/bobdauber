@@ -14,5 +14,5 @@ images:
   - images/thinking2b.jpg
 description: Thank you, Monsieur Rodin, for the inspiration.  The red inclusions
   and white striations found in this marble are intoxicating.
-price: 1800
+price: 3250
 ---
