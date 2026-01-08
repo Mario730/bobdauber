@@ -16,5 +16,5 @@ description: "\"You know how to whistle, don't you Steve?  You just put your
   lips together and blow.\"  -Lauren Bacall in To Have and Have Not.  I did not
   realize the beauty of this marble, quarried in Carrara, Italy, until the
   polishing phase of the process."
-price: 1200
+price: 2400
 ---
