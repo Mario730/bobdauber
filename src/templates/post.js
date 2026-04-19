@@ -33,7 +33,9 @@ const postTemplate = ({ data, pageContext }) => {
             <div className={info}>
                 {data.markdownRemark.frontmatter.material.toUpperCase() + " // " + data.markdownRemark.frontmatter.year} <br /> 
                 {data.markdownRemark.frontmatter.dimensions.width + "\" x " + data.markdownRemark.frontmatter.dimensions.height + "\" x " + data.markdownRemark.frontmatter.dimensions.depth + "\""} <br /><br />
-                {data.markdownRemark.frontmatter.price !== 0 ? "$" + data.markdownRemark.frontmatter.price.toFixed(2) : ""}
+                {data.markdownRemark.frontmatter.sold
+                    ? <span style={{color: "red"}}>SOLD</span>
+                    : "$" + data.markdownRemark.frontmatter.price.toFixed(2)}
             </div>
             <div className={description}>
                 {data.markdownRemark.frontmatter.description === "Blank" ? "" : data.markdownRemark.frontmatter.description}
@@ -52,6 +54,7 @@ export const query = graphql`
                 year
                 description
                 price
+                sold
                 dimensions {
                     width
                     height
