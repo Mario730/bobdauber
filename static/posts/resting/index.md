@@ -12,9 +12,8 @@ images:
   - images/resting2.jpeg
   - images/resting3.jpeg
   - images/resting4.jpeg
-description: This is the stone that started it all- my first marble sculpture,
-  carved during the 2021 MARBLE/marble Symposium. Sold, and now living in
-  Florida.
+description: "This is the stone that started it all- my first marble sculpture,
+  carved during the 2021 MARBLE/marble Symposium. "
 price: 3650
-sold: false
+sold: true
 ---
