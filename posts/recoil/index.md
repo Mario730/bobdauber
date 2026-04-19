@@ -15,4 +15,5 @@ images:
 description: "An attempt to make hard stone seem pliable. The Arizona Mesquite
   base was hand turned by Mark Caron. "
 price: 900
+sold: false
 ---

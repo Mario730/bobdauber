@@ -13,4 +13,5 @@ images:
   - images/flaming4.jpg
 description: Translucent fire.
 price: 1200
+sold: false
 ---

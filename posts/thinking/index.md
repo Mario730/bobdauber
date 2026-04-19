@@ -15,4 +15,5 @@ images:
 description: Thank you, Monsieur Rodin, for the inspiration.  The red inclusions
   and white striations found in this marble are intoxicating.
 price: 3250
+sold: false
 ---

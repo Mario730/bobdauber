@@ -16,4 +16,5 @@ description: This is the stone that started it all- my first marble sculpture,
   carved during the 2021 MARBLE/marble Symposium. Sold, and now living in
   Florida.
 price: 3650
+sold: false
 ---

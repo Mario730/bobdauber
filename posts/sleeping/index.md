@@ -18,4 +18,5 @@ description: This beautiful white marble, quarried in Colorado, has light grey
   figure seems to be dreaming- perhaps of simpler days when she was just part of
   a mountain.  Sold and now sleeping peacefully in Tempe, AZ.
 price: 3602
+sold: true
 ---

@@ -16,4 +16,5 @@ description: This yummy gummy was carved from a 150 lb. block of beautifully
   translucent stone, with some brown inclusions in the lower left leg.  Based on
   the original Haribo version of the bear.
 price: 3200
+sold: false
 ---
