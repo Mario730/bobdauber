@@ -1,22 +1,72 @@
 backend:
-  name: main
+  name: git-gateway
+  branch: main
 
-media_folder: 'static/images/uploads'
+publish_mode: simple
+media_folder: 'static/uploads'
 
 site_url: 'https://bobdauber.com'
+display_url: 'https://bobdauber.com'
+
+search: false
+editor:
+  preview: false
 
 collections:
   - name: 'posts'
     label: 'Posts'
     label_singular: 'Post'
-    folder: ''
-    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+    folder: 'static/posts'
+    path: '{{slug}}/index'
+    media_folder: 'images'
     create: true
     fields:
       - label: "Title"
         name: "title"
         widget: "string"
+      - label: "Material"
+        name: "material"
+        widget: "string"
+      - label: "Dimensions"
+        name: "dimensions"
+        widget: "object"
+        fields:
+          - {label: "Width", name: "width", widget: "number", value_type: "float"}
+          - {label: "Height", name: "height", widget: "number", value_type: "float"}
+          - {label: "Depth", name: "depth", widget: "number", value_type: "float"}
+      - label: "Year"
+        name: "year"
+        widget: "number"
+      - label: "Cover Image"
+        name: "cover_image"
+        widget: "image"
+        media_folder: "images/cover"
       - label: "Images"
         name: "images"
-        widget: "image"
-        allow_multiple: true
+        widget: "list"
+        field: {label: "Image", name: "image", widget: "image"}
+      - label: "Description"
+        name: "description"
+        widget: "text"
+      - label: "Price"
+        name: "price"
+        widget: "number"
+        default: 0.00
+        value_type: "float"
+      - label: "Sold"
+        name: "sold"
+        widget: "boolean"
+        default: false
+  - name: 'about'
+    label: 'About Page'
+    files:
+      - label: 'Bio'
+        name: 'bio'
+        file: 'static/about/bio.md'
+        fields:
+          - label: 'caption'
+            name: 'caption'
+            widget: 'text'
+          - label: 'body'
+            name: 'body'
+            widget: 'markdown'
