@@ -6,7 +6,7 @@ dimensions:
   height: 15
   depth: 7
 year: 2024
-cover_image: images/cover/img_3287.jpeg
+cover_image: images/cover/img_3271.jpeg
 images:
   - images/img_3287.jpeg
   - images/img_3278.jpeg
