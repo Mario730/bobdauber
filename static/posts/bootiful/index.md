@@ -13,4 +13,5 @@ images:
 description: '"What you goin do with all that junk/All that junk inside your
   trunk?"-Black-Eyed Peas'
 price: 600
+sold: false
 ---

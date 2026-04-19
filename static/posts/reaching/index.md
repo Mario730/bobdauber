@@ -13,4 +13,5 @@ images:
   - images/reaching3.jpeg
 description: From the grave?
 price: 2100
+sold: false
 ---

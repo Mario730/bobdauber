@@ -18,4 +18,5 @@ description: 'Inspired by the Grateful Dead lyric: "She had scarlet begonias
   stone is semi-translucent; when backlit, the light shines through parts of her
   hair and head.'
 price: 4200
+sold: false
 ---

@@ -17,4 +17,5 @@ description: '"Dark Star crashes, pouring its light into ashes." -Robert
   white veins that seemed to be bursting from a central point; or, conversely,
   streaks of energy being sucked in to a void.  '
 price: 1800
+sold: false
 ---

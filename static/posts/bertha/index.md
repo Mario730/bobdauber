@@ -14,4 +14,5 @@ images:
 description: Gratefully deadicated to S. Mouse and A. Kelly, with a nod to Omar
   Khayyam's Rubaiyat.
 price: 1800
+sold: false
 ---
