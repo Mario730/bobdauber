@@ -12,7 +12,6 @@ images:
   - images/img_1210-2-.jpg
   - images/img_1196-3-.jpg
   - images/img_1217-edited-.jpg
-  - images/img_1200-2-.jpg
 description: "Like its solar and lunar cousins, this white marble eclipse speaks
   through its shadows.  Each view reveals a different   image. "
 price: 3000
