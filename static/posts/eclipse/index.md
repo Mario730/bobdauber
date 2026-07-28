@@ -15,5 +15,5 @@ images:
 description: "Like its solar and lunar cousins, this white marble eclipse speaks
   through its shadows.  Each view reveals a different   image. "
 price: 3000
-sold: false
+sold: true
 ---
