@@ -13,6 +13,6 @@ images:
   - images/twisting3.jpeg
   - images/twisting4.jpeg
 description: "\"They're twistin' the night away.\"  -Sam Cooke."
-price: 1200
+price: 2400
 sold: false
 ---
