@@ -13,6 +13,6 @@ images:
   - images/img_2598.jpeg
   - images/img_2589.jpeg
 description: "Marble from three different regions in Europe become one sculpture. "
-price: 1900
+price: 2400
 sold: false
 ---
