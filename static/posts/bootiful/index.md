@@ -12,6 +12,6 @@ images:
   - images/bootiful2.jpeg
 description: '"What you goin do with all that junk/All that junk inside your
   trunk?"-Black-Eyed Peas'
-price: 600
+price: 800
 sold: false
 ---
