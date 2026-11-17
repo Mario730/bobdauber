@@ -9,7 +9,7 @@ Looking to feed his long simmering passion to work with stone, in 2021 Bob start
 
 Sculpting marble is a meditative process for Bob. “I lose all sense of time when I am in the studio trying to shape a stone. I feel that I get to know every cubic millimeter of the rock intimately. It tells me what it is willing, and not willing, to let me do. The resulting sculpture might be quite different from the idea I had when I started carving the rock.  Usually much better.”
 
-Most of Bob's sculptures evoke improbable, organic shapes and figures, from the whimsical to the abstract.                                                            
+Most of Bob's sculptures evoke improbable, organic shapes and figures, from the whimsical to the abstract.    Some of his sculptures are on display at On the Edge Gallery at 7045 E. Main St. in Scottsdale Arizona, and on the gallery's website, www.ontheedgegallery.com.                                                       
 
 \    \    CONTACT                                                                                                                                                                            
 
